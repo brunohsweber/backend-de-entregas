@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  db:
+  database:
     image: postgres
     container_name: db_prisma_deliveries
     environment:
@@ -21,7 +21,7 @@ services:
     volumes:
       - .:/usr/app
     depends_on:
-      - db_prisma_deliveries
+      - database
     networks:
       - prisma_deliveries
 
