@@ -11,4 +11,6 @@ model Deliveryman {
   id       String @id @default(uuid())
   username String @unique
   password String
+
+  @@map("deliveryman")
 }
