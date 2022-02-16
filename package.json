@@ -1,0 +1,8 @@
+{
+  "name": "backend-de-entregas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brunohsweber/backend-de-entregas.git",
+  "author": "Bruno Weber <contato@brunoweber.com.br>",
+  "license": "MIT"
+}
