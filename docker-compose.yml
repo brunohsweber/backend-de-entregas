@@ -21,7 +21,7 @@ services:
     volumes:
       - .:/usr/app
     depends_on:
-      - database
+      - db_prisma_deliveries
     networks:
       - prisma_deliveries
 
