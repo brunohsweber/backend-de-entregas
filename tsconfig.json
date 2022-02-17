@@ -3,7 +3,8 @@
     "skipLibCheck": true,
     "strict": true,
     "rootDir": "src",
-    "noEmit": true
+    "noEmit": true,
+    "esModuleInterop": true,
   },
   "include": [
     "src/**/*"

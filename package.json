@@ -5,6 +5,9 @@
   "repository": "https://github.com/brunohsweber/backend-de-entregas.git",
   "author": "Bruno Weber <contato@brunoweber.com.br>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts"
+  },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
