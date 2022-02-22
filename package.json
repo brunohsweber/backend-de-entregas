@@ -1,0 +1,30 @@
+{
+  "name": "backend-de-entregas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brunohsweber/backend-de-entregas.git",
+  "author": "Bruno Weber <contato@brunoweber.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "commitizen": "^4.2.4",
+    "husky": "^7.0.4",
+    "prisma": "^3.9.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.9.2",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
