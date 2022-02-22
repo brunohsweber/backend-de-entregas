@@ -16,21 +16,21 @@ API Backend de Entregas
 
 # Sobre o projeto
 
-API Backend de Entregas é um projeto pessoal com finalidade de .
+API Backend de Entregas é um projeto pessoal o qual teve como objetivos:
 
-O objetivo deste projeto é de construir uma API completa para aluguéis de carros, daí a origem do nome _RentX_.
-
-Resumidamente, este projeto possibilita o gerenciamento completo de usuários, carros e aluguéis.
-
-A construção do RentX tem como objetivo também aprender conceitos avançados de uma API e conhecer ferramentas e tecnologias para construir aplicações robustas, flexíveis e escaláveis com o uso do Node.js. E, para garantir a integralidade do código, está sendo utilizada a linguagem Typescript.
-
-Este projeto está sendo desenvolvido aos poucos. A cada avanço nos módulos do treinamento é proposto um novo desafio para aumentar a complexidade e funcionalidades desta aplicação.
-
-### :books: Documentação:
-
-A documentação da API deste projeto está sendo construída com o Swagger e encontra-se na rota: http://localhost:3333/api-docs/
-
-:warning: Atenção: Documentação ainda está em construção!
+- Construir uma API Rest Completa
+- Desenvolver um sistema CRUD de clientes, entregadores e entregas
+- Aprimorar a utilização do TypeScript
+- Reforçar os conhecimento do framework Express
+- Reforçar os conhecimento para o uso correto dos recursos e verbos HTTP
+- Aprender a utilizar o Prisma ORM para lidar com bando de dados
+- Estruturar o banco de dados relacional PostgreSQL com schemas do Prisma
+- Gerar Migrations para versionamento das tabelas do banco de dados
+- Estruturar e lidar com Regras de Negócio da aplicação
+- Aprimorar a elaboração de casos de uso onde são utilizados validações de autenticação, permissão de rotas e recursos
+- Reforçar como fazer uma autenticação com JWT de forma eficiente
+- Deixar a aplicação mais delegável com o uso de Middlewares
+- Praticar e respeitar princípios SOLID na arquitetura de aplicações para deixar o código mais legível e limpo
 
 ### :rocket: Tecnologias e Principais Ferramentas:
 
@@ -39,7 +39,7 @@ A documentação da API deste projeto está sendo construída com o Swagger e en
 - Express
 - PostgreSQL
 - Prisma
-- Autenticação com JWT
+- JWT
 - BCrypt.js
 - Docker e Docker-Compose
 - Husky
@@ -79,15 +79,13 @@ $ yarn dev
 
 ```
 **Para acessar as rotas já configuradas pelo Insomnia, é possível importar o arquivo JSON:**
-[Clique aqui para fazer o download do arquivo JSON](https://drive.google.com/file/d/1vZarJXXk4mMvNw5fw2SALizO_3ITM5h4/view?usp=sharing)
+[Clique aqui para acessar o arquivo JSON](https://github.com/brunohsweber/backend-de-entregas/blob/main/collection_Insomnia.json)
 
 <br>
 
 ## :warning: Informações Importantes
 
-Este projeto ainda está **em desenvolvimento** e novas features serão lançadas nas próximas semanas.
-
-#### ÚLTIMA *FEATURE* LANÇADA: Criação de aluguel (create rental)
+Este projeto está em versão inicial e novas features poderão ser lançadas futuramente.
 
 <br>
 
