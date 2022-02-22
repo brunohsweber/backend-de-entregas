@@ -79,7 +79,7 @@ $ yarn dev
 
 ```
 **Para acessar as rotas já configuradas pelo Insomnia, é possível importar o arquivo JSON:**
-[Clique aqui para acessar o arquivo JSON](https://github.com/brunohsweber/backend-de-entregas/blob/main/collection_Insomnia.json)
+[Clique aqui para acessar o arquivo JSON](https://github.com/brunohsweber/backend-de-entregas/blob/master/collection_Insomnia.json)
 
 <br>
 
